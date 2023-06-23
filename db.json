@@ -1,0 +1,103 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Web Development",
+      "category": "Development",
+      "image": "https://www.webhopers.in/uploads/1/web-development-course-in-panchkula.png",
+      "title_repeated": "Introduction to Web Development",
+      "description": "Learn the basics of web development and build your first website."
+    },
+   
+ 
+    {
+      "id": 2,
+      "title": "Business Management Fundamentals",
+      "category": "Business",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeTesX_1jQOk1C_52BiiAh33bmUy1xLudY4A&usqp=CAU",
+      "title_repeated": "Business Management Fundamentals",
+      "description": "Gain a solid understanding of business management principles and practices."
+    },
+
+    {
+      "id": 3,
+      "title": "Graphic Design Basics",
+      "category": "Design",
+      "image": "https://i1.wp.com/www.zekagraphic.com/wp-content/uploads/2021/03/Graphic-Design-Principles-Guide-2021.jpg?fit=1920%2C1080&ssl=1",
+      "title_repeated": "Graphic Design Basics",
+      "description": "Master the essential principles of graphic design and create stunning visuals."
+    },
+    {
+      "id": 4,
+      "title": "Advanced JavaScript Programming",
+      "category": "Development",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXhjVqtRd6tiqcsSQ7rD6VF7NxI-3VvoR0w&usqp=CAU",
+      "titlerepeated": "Advanced JavaScript Programming",
+      "description": "Take your JavaScript skills to the next level with advanced concepts and techniques."
+    },
+    {
+      "id": 5,
+      "title": "UI/UX Design Fundamentals",
+      "category": "Design",
+      "image": "https://www.freecodecamp.org/news/content/images/2020/02/gdesign.png",
+      "title_repeated": "UI/UX Design Fundamentals",
+      "description": "Learn the basics of user interface and user experience design."
+    },
+    {
+      "id": 6,
+      "title": "Typography for Designers",
+      "category": "Design",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjgMwOAWyaLjT9HQ67-4Qk1KwIdenV7xHAQw&usqp=CAU",
+      "title_repeated": "Typography for Designers",
+      "description": "Explore the art of typography and its application in design projects."
+    },
+    {
+      "id": 7,
+      "title": "Healthy Cooking 101",
+      "category": "Lifestyle",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSesR6t7R3XX7UiRFnHEdso75x8Ci1cARC84A&usqp=CAU",
+      "titlrepeated": "Healthy Cooking 101",
+      "description": "Discover nutritious recipes and cooking techniques for a healthy lifestyle."
+    },
+    {
+      "id": 8,
+      "title": "Python for Data Science",
+      "category": "Development",
+      "image": "https://www.geektonight.com/wp-content/uploads/2021/11/Best-Python-for-Data-Analysis-Courses.jpg",
+      "title_repeated": "Python for Data Science",
+      "description": "Learn how to use Python for data analysis and visualization in this comprehensive course."
+    },
+    {
+      "id": 9,
+      "title": "Fitness Training Essentials",
+      "category": "Lifestyle",
+      "image": "https://m.media-amazon.com/images/I/81qiKarTQXL._AC_UF1000,1000_QL80_.jpg",
+      "title_repeated": "Fitness Training Essentials",
+      "description": "Learn the fundamentals of fitness training and design effective workout routines."
+    },
+    {
+      "id": 10,
+      "title": "Mindfulness Meditation",
+      "category": "Lifestyle",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzJWRmMGgl9OQh2XPHdfMDf80uiWXjOXjWRQ&usqp=CAU",
+      "title_repeated": "Mindfulness Meditation",
+      "description": "Develop mindfulness and meditation practices to enhance well-being and reduce stress."
+    },
+    {
+      "id": 11,
+      "title": "Photography Basics",
+      "category": "Lifestyle",
+      "image": "https://artacademydirect.com/cdn/shop/products/photography-course-for-beginners-769944_530x.png?v=1662416321",
+      "title_repeated": "Photography Basics",
+      "description": "Learn the basics of photography, including composition, lighting, and camera settings."
+    },
+    {
+      "id": 12,
+      "title": "Entrepreneurship 101",
+      "category": "Business",
+      "image": "https://wellspringconsultancy.com/wp-content/uploads/2019/03/entrepreneur3.jpg",
+      "title_repeated": "Entrepreneurship 101",
+      "description": "Learn the fundamentals of entrepreneurship and how to start your own business."
+    }
+  ]
+}
