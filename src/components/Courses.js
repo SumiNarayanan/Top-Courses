@@ -2,12 +2,16 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import live from './image/live.jpg'
 import Heart  from './image/Heart.jpg'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 //  http://localhost:3000/courses
 
 const Courses = ({category}) => {
   const[course,setCourse]=useState([])
+
 
 //   useEffect(()=>{
 // axios
@@ -20,7 +24,7 @@ const Courses = ({category}) => {
 //   }
 //   )
 useEffect(() => {
-  let apiUrl = 'http://localhost:3000/courses';
+  let apiUrl = ' http://localhost:3000/courses';
   if (category) {
     apiUrl += `?category=${category}`;
   }
@@ -34,13 +38,11 @@ useEffect(() => {
     .catch((error) => console.log(error));
 }, [category]);
 
-useEffect(()=>{
-  let apiUrl= 'http://localhost:3000/courses';
-  if(category){
-    apiUrl+=`?category=${category}`
-  }
-})
 
+
+const handleAddLike=()=>{
+  toast.success('success !',{position:toast.POSITION.TOP_RIGHT})
+}
 
 
 
@@ -51,7 +53,7 @@ useEffect(()=>{
            <div className='course-card'>
            <div className='course-container1'>
              <div className='title'>
-               <img src={live}/>
+               <img src={live} alt='live'/>
                <div className='Heading'>
                <h5>{courses.title}</h5>
                </div>
@@ -60,22 +62,25 @@ useEffect(()=>{
                </div>
              </div>
              <div className='image'>
-               <img src={courses.image} alt='photo'/>
+               <img src={courses.image} alt='course'/>
              </div>
              <div className='card-icons'>
-             <img src={Heart} alt='heart'/>
+             <img src={Heart} alt='heart' onClick={handleAddLike}/>
+             <ToastContainer />
              </div>
            </div>
 
            <div  className='course-container2'>
-       <h4></h4>{courses.title_repeated}
+       <h4>{courses.title_repeated}</h4>
        <p>{courses.description}</p>
            </div>
            </div>
 
+
       ))}
    
     </div>
+
     
     </>
   )

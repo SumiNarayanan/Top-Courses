@@ -32,7 +32,7 @@
       "title": "Advanced JavaScript Programming",
       "category": "Development",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXhjVqtRd6tiqcsSQ7rD6VF7NxI-3VvoR0w&usqp=CAU",
-      "titlerepeated": "Advanced JavaScript Programming",
+      "title_repeated": "Advanced JavaScript Programming",
       "description": "Take your JavaScript skills to the next level with advanced concepts and techniques."
     },
     {
@@ -56,7 +56,7 @@
       "title": "Healthy Cooking 101",
       "category": "Lifestyle",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSesR6t7R3XX7UiRFnHEdso75x8Ci1cARC84A&usqp=CAU",
-      "titlrepeated": "Healthy Cooking 101",
+      "titl_repeated": "Healthy Cooking 101",
       "description": "Discover nutritious recipes and cooking techniques for a healthy lifestyle."
     },
     {
