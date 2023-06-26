@@ -14,7 +14,9 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <Routes>
-      <Route  path='/courses' element={ <Courses category=''/>}/>
+      <Route path="/" element={<Courses category=''/>} />
+      <Route path="/courses" element={<Courses category=''/>} />
+      {/* <Route  path='/courses' element={ <Courses category=''/>}/> */}
       <Route path='/courses/development' element={<Courses category='Development'/>}/>
       <Route path='/courses/design' element={<Courses category='Design'/>}/>
        <Route path='/courses/business' element={<Courses category='Business'/>}/>   
